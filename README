@@ -1,0 +1,16 @@
+Acme_Pyrus_Xmas
+
+show xmas tree! - pyrus plugin.
+
+INSTALL:
+$php pyrus.phar package package.xml
+$php pyrus.phar install -p Acme_Pyrus_Xmas-X.X.X.tgz
+
+USAGE :
+$php pyrus.phar help xmas
+$php pyrus.phar xmas
+
+UNINSTALL :
+$php pyrus.phar uninstall -p __uri/Acme_Pyrus_Xmas
+
+enjoy!

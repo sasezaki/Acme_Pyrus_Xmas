@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands version="2.0" xmlns="http://pear2.php.net/dtd/customcommand-2.0">
+ <command>
+  <name>xmas</name>
+  <class>Acme\Pyrus\Xmas\CLI</class>
+  <function>xmas</function>
+  <autoloadpath/>
+  <summary>show xmas tree</summary>
+  <shortcut />
+  <options>
+   <option>
+    <name>withcolor</name>
+    <shortopt>o</shortopt>
+    <type><bool/></type>
+    <doc>use Console_Color</doc>
+   </option>
+  </options>
+  <arguments>
+  <argument>
+    <name>style</name>
+    <multiple>0</multiple>
+    <optional>1</optional>
+    <doc>select AA style</doc>
+   </argument>
+  </arguments>
+  <doc>
+   undocumented yet.
+  </doc>
+ </command>
+</commands>
